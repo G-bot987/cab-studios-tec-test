@@ -4,8 +4,12 @@
   }
   #test {
     height: 100px;
-    background-color: #ccc;
-    position: relative;
+    background-color: #FFFFFF;
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
   }
   #test::before {
     content:"";
@@ -14,7 +18,7 @@
     width: 50%;
     height: 16px;
     top: 100px;
-    background-color: #ccc;
+    background-color: #FFFFFF;
     -webkit-transform: skew(-40deg);
     -moz-transform: skew(-40deg);
     -o-transform: skew(-40deg);
@@ -28,7 +32,7 @@
     width: 50%;
     height: 16px;
     top: 100px;
-    background-color: #ccc;
+    background-color: #FFFFFF;
     -webkit-transform: skew(40deg);
     -moz-transform: skew(40deg);
     -o-transform: skew(40deg);
