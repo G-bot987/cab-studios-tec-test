@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/cab-studios-tec-test/static/css/main.197ea44a.css",
-    "main.js": "/cab-studios-tec-test/static/js/main.4ac2a83a.js",
+    "main.css": "/cab-studios-tec-test/static/css/main.099fea32.css",
+    "main.js": "/cab-studios-tec-test/static/js/main.d9051d01.js",
     "static/js/787.28cb0dcd.chunk.js": "/cab-studios-tec-test/static/js/787.28cb0dcd.chunk.js",
+    "static/media/background.png": "/cab-studios-tec-test/static/media/background.1f3e6c60b5534bbdef6d.png",
     "index.html": "/cab-studios-tec-test/index.html",
-    "main.197ea44a.css.map": "/cab-studios-tec-test/static/css/main.197ea44a.css.map",
-    "main.4ac2a83a.js.map": "/cab-studios-tec-test/static/js/main.4ac2a83a.js.map",
+    "main.099fea32.css.map": "/cab-studios-tec-test/static/css/main.099fea32.css.map",
+    "main.d9051d01.js.map": "/cab-studios-tec-test/static/js/main.d9051d01.js.map",
     "787.28cb0dcd.chunk.js.map": "/cab-studios-tec-test/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.197ea44a.css",
-    "static/js/main.4ac2a83a.js"
+    "static/css/main.099fea32.css",
+    "static/js/main.d9051d01.js"
   ]
 }
