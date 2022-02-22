@@ -1,42 +1,14 @@
-#wrapper {
-    overflow: hidden;
-    height: 116px;
+
+  #cutaway {
+   display: flex;
+   justify-content: center;
+    height: 426px;
+    width: 426px;
+   
+    background: 
+    linear-gradient(-135deg, transparent 75px, #FFFFFF 0) top left,
+    linear-gradient(45deg, transparent 75px, #FFFFFF 0) bottom left;
+    background-size: 100% 50% ;
+    background-repeat: no-repeat;
   }
-  #test {
-    height: 100px;
-    background-color: #FFFFFF;
-    position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-  }
-  #test::before {
-    content:"";
-    position: absolute;
-    left: -8px;
-    width: 50%;
-    height: 16px;
-    top: 100px;
-    background-color: #FFFFFF;
-    -webkit-transform: skew(-40deg);
-    -moz-transform: skew(-40deg);
-    -o-transform: skew(-40deg);
-    -ms-transform: skew(-40deg);
-    transform: skew(-40deg);
-  }
-  #test::after {
-    content:"";
-    position: absolute;
-    right: -8px;
-    width: 50%;
-    height: 16px;
-    top: 100px;
-    background-color: #FFFFFF;
-    -webkit-transform: skew(40deg);
-    -moz-transform: skew(40deg);
-    -o-transform: skew(40deg);
-    -ms-transform: skew(40deg);
-    transform: skew(40deg);
-  }
-  
+ 
