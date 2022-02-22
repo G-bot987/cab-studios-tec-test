@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cab-studios-tec-test/static/css/main.099fea32.css",
-    "main.js": "/cab-studios-tec-test/static/js/main.d9051d01.js",
+    "main.css": "/cab-studios-tec-test/static/css/main.0b054c16.css",
+    "main.js": "/cab-studios-tec-test/static/js/main.776375cc.js",
     "static/js/787.28cb0dcd.chunk.js": "/cab-studios-tec-test/static/js/787.28cb0dcd.chunk.js",
-    "static/media/background.png": "/cab-studios-tec-test/static/media/background.1f3e6c60b5534bbdef6d.png",
+    "static/media/background.png": "/cab-studios-tec-test/static/media/background.c27f24c3f88631425623.png",
     "index.html": "/cab-studios-tec-test/index.html",
-    "main.099fea32.css.map": "/cab-studios-tec-test/static/css/main.099fea32.css.map",
-    "main.d9051d01.js.map": "/cab-studios-tec-test/static/js/main.d9051d01.js.map",
+    "main.0b054c16.css.map": "/cab-studios-tec-test/static/css/main.0b054c16.css.map",
+    "main.776375cc.js.map": "/cab-studios-tec-test/static/js/main.776375cc.js.map",
     "787.28cb0dcd.chunk.js.map": "/cab-studios-tec-test/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.099fea32.css",
-    "static/js/main.d9051d01.js"
+    "static/css/main.0b054c16.css",
+    "static/js/main.776375cc.js"
   ]
 }
