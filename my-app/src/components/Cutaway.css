@@ -1,0 +1,38 @@
+#wrapper {
+    overflow: hidden;
+    height: 116px;
+  }
+  #test {
+    height: 100px;
+    background-color: #ccc;
+    position: relative;
+  }
+  #test::before {
+    content:"";
+    position: absolute;
+    left: -8px;
+    width: 50%;
+    height: 16px;
+    top: 100px;
+    background-color: #ccc;
+    -webkit-transform: skew(-40deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    -ms-transform: skew(-40deg);
+    transform: skew(-40deg);
+  }
+  #test::after {
+    content:"";
+    position: absolute;
+    right: -8px;
+    width: 50%;
+    height: 16px;
+    top: 100px;
+    background-color: #ccc;
+    -webkit-transform: skew(40deg);
+    -moz-transform: skew(40deg);
+    -o-transform: skew(40deg);
+    -ms-transform: skew(40deg);
+    transform: skew(40deg);
+  }
+  
