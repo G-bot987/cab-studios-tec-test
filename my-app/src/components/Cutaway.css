@@ -1,14 +1,74 @@
 
-  #cutaway {
-   display: flex;
-   justify-content: center;
+  #wrapper {
+  
     height: 426px;
     width: 426px;
+    display: flex;
+    flex-wrap: wrap;
    
-    background: 
-    linear-gradient(-135deg, transparent 75px, #FFFFFF 0) top left,
-    linear-gradient(45deg, transparent 75px, #FFFFFF 0) bottom left;
-    background-size: 100% 50% ;
-    background-repeat: no-repeat;
-  }
  
+   
+    
+  }
+ #topleft{
+    
+     height: 190px;
+     width: 213px;
+     background: 
+     linear-gradient(41deg, transparent 35px, #ffffff 0) bottom left;
+   margin: 0;
+   padding: 0;
+ 
+
+
+ }
+ #topright{
+    
+  height: 190px;
+    width: 213px;
+    background: 
+    linear-gradient(-135deg, transparent 70px, #ffffff 0) top right;
+    position: relative;
+    left: -1px;
+}
+
+#bottomleft{
+    
+    
+    display: inline;
+position: relative;
+top: -1px;
+
+    height: 236px;
+    width: 213px;
+    background: 
+    linear-gradient(45deg, transparent 70px, #ffffff 0) bottom left;
+
+
+}
+
+#midright{
+    
+    position: relative;
+    top: -1px;
+    
+        height: 75px;
+        width: 213px;
+      background-color: #ffffff;
+    
+}
+
+
+#bottomright{
+    position: relative;
+    top: -162px;
+    right: -212px;
+
+    
+        height: 161px;
+        width: 213px;
+ 
+      background: 
+      linear-gradient(-135deg, transparent 30px, #ffffff 0) top right;
+    
+}
