@@ -4,14 +4,23 @@
   
 }
 .background{
+  flex-wrap: wrap;
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+ grid-template-columns: 480px 480px 480px;
+ grid-template-rows: 346px 346px 346px;
   width: 1440px;
   height: 1024px;
 left: 0px;
 top: 0px;
+background-size: cover;
+}
+
+.cutawaycontainer{
+  margin-top: -64px; 
+  margin-left: 40px; 
+  
+
 }
 
 .App-logo {
