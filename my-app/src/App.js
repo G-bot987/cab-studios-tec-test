@@ -4,6 +4,7 @@ import { Cutaway } from "./components/Cutaway";
 import background from "./assets/images/fullsizebackground.png";
 import { Nav } from "./components/Nav";
 import { Logo } from "./components/Logo";
+import Terms from "./components/Terms";
 function App() {
   return (
     <div
@@ -22,7 +23,10 @@ function App() {
         <Logo />
       </div>
       <div>mr</div>
-      <div>bl</div>
+      <div>
+        bl
+        <Terms/>
+        </div>
       <div>bm</div>
       <div>br</div>
     </div>
