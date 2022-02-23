@@ -3,8 +3,11 @@
   
     height: 426px;
     width: 426px;
-    display: flex;
-    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-self: center; */
    
  
    
