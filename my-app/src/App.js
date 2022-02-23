@@ -11,24 +11,24 @@ function App() {
       className="background"
       style={{ backgroundImage: `url(${background})` }}
     >
-      <div>tl</div>
+      <div></div>
 
-      <div>tm</div>
+      <div></div>
       <div>
         <Nav />
       </div>
-      <div>ml</div>
+      <div></div>
       <div className="cutawaycontainer">
         <Cutaway />
         <Logo />
       </div>
-      <div>mr</div>
+      <div></div>
       <div>
-        bl
+        
         <Terms/>
         </div>
-      <div>bm</div>
-      <div>br</div>
+      <div></div>
+      <div></div>
     </div>
   );
 }
