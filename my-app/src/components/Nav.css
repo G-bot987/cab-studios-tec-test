@@ -1,20 +1,19 @@
 
 .Nav{
-   display: flex;
-    
+   display: flex;  
     Width :360px;
     Height: 25px;
-    /* Top: 56px;
-    Left : 980px; */
     justify-content: space-around;
     margin-top: 56px;
-    
-
+    margin-left: 25px;
 }
 
 .icon{margin-top: -5px;
-    font-weight: 600;
     color: white;
-    font-family: "archivo";
-
+    font-family: "archivo";  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: right;
 }
