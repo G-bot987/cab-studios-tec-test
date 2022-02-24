@@ -5,6 +5,8 @@ import background from "./assets/images/fullsizebackground.png";
 import { Nav } from "./components/Nav";
 import { Logo } from "./components/Logo";
 import Terms from "./components/Terms";
+
+
 function App() {
   return (
     <div
