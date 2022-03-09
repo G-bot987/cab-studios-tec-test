@@ -15,8 +15,8 @@ code {
 
 #root {
   background: url("./assets/images/fullsizebackground.png");
-  height: 1024px;
-  width: 1440px;
+  height: 100vh;
+  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,6 +25,8 @@ code {
 .app{
   display: flex;
   flex-direction: row;
+  width: 100vw;
+  height: 100vh;
 }
 .space{
   width:288px ;
