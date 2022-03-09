@@ -1,25 +1,21 @@
 
  
   #cutaway {
-    max-height: 426px;
-    max-width: 426px;
+    height: 426px;
+    width: 426px;
     background-repeat: no-repeat;
     background-size: cover; 
-    flex: 3;
-    margin-top: 299px;
-    margin-left: 107px;
-    display: flex;
-    /* position: fixed; */
-    /* top: 50%;
+     position: fixed; 
+     top: 50%;
     left: 50%;
     align-self: center;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%); 
   }
 
-  /* @media( max-width:375px){
+  @media( max-width:375px){
     #cutaway{
         width: 275px;
         background-size: contain;      
     }
-} */
+}
  
