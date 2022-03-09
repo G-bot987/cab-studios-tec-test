@@ -16,8 +16,7 @@ right: 0;
 
 @media( max-width:375px){
     #T{
-    margin-left: 180px;
-       
+    margin-left: 180px;     
     }
 }
 @media( min-width:376px){
