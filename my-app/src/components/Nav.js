@@ -3,16 +3,7 @@ import "./Nav.css";
 export const Nav = () => {
   return (
     <div className="Nav">
-      <ul
-        style={{
-          margin: 0,
-          listStyle: "none",
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "flex-end",
-          marginRight: 100,
-        }}
-      >
+      <ul className="list">
         <li className="navbar-item">
           <a href="#">WELCOME</a>
         </li>
