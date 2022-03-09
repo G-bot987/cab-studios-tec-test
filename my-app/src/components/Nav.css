@@ -25,11 +25,13 @@
     font-family: "archivo";
   }
 
-  @media( max-width:425px){
-    .list{
-        margin-right: 50px;
-    }
-}
+  #downloads{
+      margin-top:  0;
+      margin-left:  2.5rem ;
+      margin-right:  2.5rem ;
+  }
+
+
 
 
   @media( max-width:375px){
@@ -38,12 +40,34 @@
     }
 }
 
-
 @media( max-width:320px){
-    .list{
+    #downloads{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+
+
+
+@media( max-width:425px){
+    .Nav{
         margin-right: 0px;
     }
 }
+
+@media( max-width:375px){
+    .Nav{
+        padding-left: 150px;
+        width: 225px;
+    }
+}
+
+ @media( max-width:320px){
+    .Nav{
+        padding-left:90px ;
+    }
+} 
 
 
 
