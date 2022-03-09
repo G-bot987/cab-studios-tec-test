@@ -10,7 +10,7 @@ export const Nav = () => {
         <li
           className="navbar-item"
           style={{
-            margin: "0 2rem",
+            margin: "0 2.5rem",
           }}
         >
           <a href="#">DOWNLOADS</a>

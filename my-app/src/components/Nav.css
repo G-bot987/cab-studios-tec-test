@@ -1,10 +1,11 @@
 
 .Nav{
-    padding-top: 40px;
+    padding-top: 56px;
     list-style: none;
    display: flex;
    flex-direction: row;
-   justify-content: flex-end;  
+   justify-content: flex-end;
+   margin-Right: 100px;  
 }
 
 .list{
@@ -12,8 +13,8 @@
     list-Style: none;
     display: flex;
     flex-Direction: row;
-    justify-Content: flex-end;
-    margin-Right: 100px;
+    justify-Content: flex-end; 
+    padding: 0px;
 }
 
 .navbar-item a {
