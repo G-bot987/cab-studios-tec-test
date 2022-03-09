@@ -32,7 +32,7 @@
   }
 
 
-  @media( max-width:425px){
+  @media( max-width:440px){
     .list{
         margin-right: 25px;
     }
@@ -45,7 +45,7 @@
     }
 }
 
-@media( max-width:425px){
+@media( max-width:440px){
     .Nav{
         margin-right: 0px;
     }
