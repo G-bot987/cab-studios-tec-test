@@ -1,8 +1,14 @@
 
-  #wrapper {
+ 
+  #cutaway {
     height: 426px;
     width: 426px;
     background-repeat: no-repeat;
     background-size: cover;  
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    align-self: center;
+    transform: translate(-50%, -50%);
   }
  
