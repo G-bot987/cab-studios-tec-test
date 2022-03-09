@@ -1,9 +1,77 @@
-.logoContainer{
+.logo-container{
 width: 426px;
 position: absolute;
 bottom: 0;
 right: 0;
 }
+
+
+/* two styling */
+@media( max-width:375px){
+    .two{
+     padding-bottom: 50px;
+     padding-right: 50px ;     
+    }
+}
+
+@media( max-width:375px){
+    #T{
+    margin-left: 180px;
+       
+    }
+}
+@media( min-width:376px){
+    #T{
+    margin-left: 357px;
+       
+    }
+}
+
+@media( max-width:375px){
+    #W{
+    margin-left: 200px;     
+    }
+}
+
+@media( min-width:376px){
+    #W{
+    margin-left: 373px;   
+    }
+}
+
+@media( max-width:375px){
+    #O{
+    margin-left: 235px;
+    margin-top: -91px;  
+    }
+}
+
+@media( min-width:376px){
+    #O{
+    margin-left:403px;
+    margin-top: -90px;
+       
+    }
+}
+
+/* brindley styling */
+
+@media( max-width:375px){
+    .brindley{
+     margin-bottom: 115px; 
+     margin-left: 87px;      
+    }
+}
+
+
+@media( max-width:375px){
+    .place{
+     padding-right: 100px;
+     padding-bottom: 155px;   
+    }
+}
+
+
 
 .logo{
 margin-right: 25px;
@@ -131,8 +199,6 @@ margin-top: -100px;
     height: 40.03px;
     position: absolute;
     background-size: 100% 100%;
-    margin-top: -90px;
-    margin-left: 403px;
 }
 
 #W{
@@ -141,7 +207,6 @@ margin-top: -100px;
     position: absolute;
     background-size: 100% 100%;
     margin-top: -90px;
-    margin-left: 373px;
 }
 
 #T{
@@ -150,7 +215,6 @@ margin-top: -100px;
     position: absolute;
     background-size: 100% 100%;
     margin-top: -90px;
-    margin-left: 357px;
 }
 
 
