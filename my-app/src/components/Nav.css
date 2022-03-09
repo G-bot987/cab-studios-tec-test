@@ -14,4 +14,12 @@
     font-size: 16px;
     font-family: "archivo";
   }
+
+
+@media( max-width:375px){
+    .Nav{
+        margin-right: -70px;
+    }
+}
+  
   
