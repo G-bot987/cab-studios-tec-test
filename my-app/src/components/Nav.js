@@ -7,12 +7,7 @@ export const Nav = () => {
         <li className="navbar-item">
           <a href="#">WELCOME</a>
         </li>
-        <li
-          className="navbar-item"
-          style={{
-            margin: "0 2.5rem",
-          }}
-        >
+        <li className="navbar-item" id="downloads">
           <a href="#">DOWNLOADS</a>
         </li>
         <li className="navbar-item">
