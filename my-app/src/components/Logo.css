@@ -2,7 +2,16 @@
   display: flex;
   max-width: 426px;
   max-height: 426px;
+  position: absolute;
+  padding-top: 325px;
 }
+
+@media( max-width:375px){
+    .logo-container{
+        padding-top: 15px;            
+    }
+}
+ 
 
 .two{
     display: flex;
@@ -10,6 +19,14 @@
     align-self: flex-end;
     padding-left: 340px;
     padding-bottom: 60px;
+}
+
+@media( max-width:375px){
+    .two{
+         padding-left: 5px;   
+         
+              
+    }
 }
 
 .brindley{
@@ -20,12 +37,27 @@
     padding-bottom: 12px
 }
 
+@media( max-width:375px){
+    .brindley{
+        padding-top: 15px;  
+        padding-left: 265px;         
+    }
+}
+
 .place{
     display: flex;
     flex-direction: row;
     align-self: flex-end;
     padding-bottom: 10px;
     padding-left: 2px; 
+}
+
+@media( max-width:375px){
+    .place{
+        margin-bottom: -45px;
+        margin-left: -85px;  
+              
+    }
 }
 /* two */
 #T{
