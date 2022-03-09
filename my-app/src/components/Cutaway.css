@@ -11,4 +11,11 @@
     align-self: center;
     transform: translate(-50%, -50%);
   }
+
+  @media( max-width:375px){
+    #cutaway{
+        width: 275px;
+        background-size: contain;      
+    }
+}
  
