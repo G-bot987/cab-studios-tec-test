@@ -4,6 +4,11 @@
     font-size: 16px;
     line-height: 17px;
     margin-left: 95px;
-    margin-top: 270px;
-    font-family: "archivo"
+    font-family: "archivo";
+    margin: auto;
+}
+
+.terms-container{
+margin-top: 700px;
+margin-left: 90px;
 }

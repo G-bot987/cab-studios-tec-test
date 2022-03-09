@@ -1,8 +1,10 @@
 import React from "react";
 import "./Terms.css";
 
-const Terms = () => {
-  return <p className="terms"> TERMS &amp; CONDITIONS</p>;
+export const Terms = () => {
+  return (
+    <div className="terms-container">
+      <p className="terms"> TERMS &amp; CONDITIONS</p>
+    </div>
+  );
 };
-
-export default Terms;
