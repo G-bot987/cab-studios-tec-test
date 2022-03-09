@@ -1,38 +1,20 @@
 import React from "react";
-import "./App.css";
 import { Cutaway } from "./components/Cutaway";
-import background from "./assets/images/fullsizebackground.png";
 import { Nav } from "./components/Nav";
-import { Logo } from "./components/Logo";
-import Terms from "./components/Terms";
+import { Terms } from "./components/Terms";
 
-
-function App() {
+export const App = () => {
   return (
     <div
-      className="background"
-      style={{ backgroundImage: `url(${background})` }}
+      className="app"
     >
-      <div></div>
+      <Nav />
 
-      <div></div>
-      <div>
-        <Nav />
-      </div>
-      <div></div>
-      <div className="cutawaycontainer">
-        <Cutaway />
-        <Logo />
-      </div>
-      <div></div>
-      <div>
-        
-        <Terms/>
-        </div>
-      <div></div>
-      <div></div>
+      <Cutaway />
+
+      <Terms />
     </div>
   );
-}
+};
 
 export default App;
