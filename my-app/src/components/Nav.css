@@ -38,7 +38,7 @@
     }
 }
 
-@media( max-width:320px){
+@media( max-width:375px){
     #downloads{
         margin-right: 15px;
         margin-left: 15px;
@@ -51,14 +51,9 @@
     }
 }
 
-@media( max-width:375px){
-    .Nav{
-        padding-left: 150px;
-        width: 225px;
-    }
-}
 
- @media( max-width:320px){
+
+ @media( max-width:375px){
     .Nav{
         padding-left:90px ;
     }
