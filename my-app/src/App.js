@@ -8,11 +8,11 @@ export const App = () => {
     <div
       className="app"
     >
-      <Nav />
-
-      <Cutaway />
-
       <Terms />
+<div className="space"></div>
+      <Cutaway />
+<div className="space" id="narrow"></div>
+      <Nav />
     </div>
   );
 };
