@@ -1,19 +1,17 @@
 
 .Nav{
-   display: flex;  
-    Width :360px;
-    Height: 25px;
-    justify-content: space-around;
-    margin-top: 56px;
-    margin-left: 25px;
+    padding-top: 40px;
+    list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;  
 }
 
-.icon{margin-top: -5px;
-    color: white;
-    font-family: "archivo";  
-    font-style: normal;
+.navbar-item a {
+    color: #fff;
+    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
-    line-height: 17px;
-    text-align: right;
-}
+    font-family: "archivo";
+  }
+  
