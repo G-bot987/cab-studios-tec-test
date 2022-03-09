@@ -5,14 +5,10 @@ import { Terms } from "./components/Terms";
 
 export const App = () => {
   return (
-    <div
-      className="app"
-    >
-      <Terms />
-<div className="space"></div>
-      <Cutaway />
-<div className="space" id="narrow"></div>
+    <div>
       <Nav />
+      <Terms />
+      <Cutaway />
     </div>
   );
 };
