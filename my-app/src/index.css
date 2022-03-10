@@ -28,12 +28,5 @@ code {
   width: 100vw;
   height: 100vh;
 }
-.space{
-  width:288px ;
-  flex: 1;
-}
 
-#narrow{
-  max-width: 54px;
-}
 

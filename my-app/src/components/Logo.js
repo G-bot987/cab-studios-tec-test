@@ -5,21 +5,39 @@ export const Logo = () => {
   return (
     <div className="logo-container">
       <div className="two">
-        <svg id="T" width="16" height="39" viewBox="0 0 16 39" fill="none">
+        <svg
+          className="letter-spacing"
+          width="16"
+          height="39"
+          viewBox="0 0 16 39"
+          fill="none"
+        >
           <path
             d="M0.78894 3.72766V0.216248H15.7637V3.72766H10.4414V38.6057H6.11119V3.72766H0.78894Z"
             fill="#252A31"
           />
         </svg>
 
-        <svg id="W" width="31" height="39" viewBox="0 0 31 39" fill="none">
+        <svg
+          className="letter-spacing"
+          width="31"
+          height="39"
+          viewBox="0 0 31 39"
+          fill="none"
+        >
           <path
             d="M20.1704 38.6213L15.6198 10.7032L11.0691 38.6213H6.56564L0.80249 0.231934H5.1957L9.14803 29.6302L13.9664 0.231934H17.3676L22.0285 29.5672L26.0281 0.231934H30.4213L24.6581 38.6213H20.1704Z"
             fill="#252A31"
           />
         </svg>
 
-        <svg id="O" width="18" height="41" viewBox="0 0 18 41" fill="none">
+        <svg
+          className="letter-spacing"
+          width="18"
+          height="41"
+          viewBox="0 0 18 41"
+          fill="none"
+        >
           <path
             d="M17.6075 12.6795V28.1423C17.6075 32.7875 16.8675 35.9997 15.3873 37.7633C13.9072 39.5426 11.7814 40.4244 9.02581 40.4244C6.27021 40.4244 4.14445 39.5426 2.6643 37.7633C1.18415 35.984 0.444092 32.7875 0.444092 28.1423V12.6795C0.444092 8.03435 1.18415 4.82211 2.6643 3.05852C4.14445 1.29494 6.27021 0.3974 9.02581 0.3974C11.7814 0.3974 13.9072 1.2792 15.3873 3.05852C16.8675 4.83785 17.6075 8.0501 17.6075 12.6795ZM13.2773 28.9769V11.8607C13.2773 6.60143 11.8759 3.95605 9.05728 3.95605C7.7031 3.95605 6.64813 4.52292 5.90805 5.65665C5.16798 6.79038 4.79005 8.85315 4.79005 11.8607V28.9769C4.79005 31.9687 5.16798 34.0472 5.90805 35.1809C6.64813 36.3147 7.7031 36.8815 9.05728 36.8815C11.8759 36.8658 13.2773 34.2361 13.2773 28.9769Z"
             fill="#252A31"
@@ -28,7 +46,7 @@ export const Logo = () => {
       </div>
       <div className="brindley">
         <svg
-          className="brindleyletters"
+          className="letter-spacing"
           width="17"
           height="39"
           viewBox="0 0 17 39"
@@ -41,7 +59,7 @@ export const Logo = () => {
         </svg>
 
         <svg
-          className="brindleyletters"
+          className="letter-spacing"
           width="17"
           height="39"
           viewBox="0 0 17 39"
@@ -53,7 +71,7 @@ export const Logo = () => {
           />
         </svg>
         <svg
-          className="brindleyletters"
+          className="letter-spacing"
           width="5"
           height="39"
           viewBox="0 0 5 39"
@@ -66,7 +84,7 @@ export const Logo = () => {
         </svg>
 
         <svg
-          className="brindleyletters"
+          className="letter-spacing"
           width="19"
           height="39"
           viewBox="0 0 19 39"
@@ -79,7 +97,7 @@ export const Logo = () => {
         </svg>
 
         <svg
-          className="brindleyletters"
+          className="letter-spacing"
           width="18"
           height="39"
           viewBox="0 0 18 39"
@@ -92,7 +110,7 @@ export const Logo = () => {
         </svg>
 
         <svg
-          className="brindleyletters"
+          className="letter-spacing"
           width="14"
           height="39"
           viewBox="0 0 14 39"
@@ -105,7 +123,7 @@ export const Logo = () => {
         </svg>
 
         <svg
-          className="brindleyletters"
+          className="letter-spacing"
           width="15"
           height="39"
           viewBox="0 0 15 39"
@@ -118,7 +136,7 @@ export const Logo = () => {
         </svg>
 
         <svg
-          className="brindleyletters"
+          className="letter-spacing"
           width="20"
           height="39"
           viewBox="0 0 20 39"
@@ -131,35 +149,65 @@ export const Logo = () => {
         </svg>
       </div>
       <div className="place">
-        <svg id="P" width="17" height="39" viewBox="0 0 17 39" fill="none">
+        <svg
+          className="letter-spacing"
+          width="17"
+          height="39"
+          viewBox="0 0 17 39"
+          fill="none"
+        >
           <path
             d="M0.713867 38.6789V0.289368H7.51628C10.2561 0.289368 12.3661 1.17117 13.8463 2.9505C15.3264 4.72983 16.0665 7.92634 16.0665 12.5715V12.8392C16.0665 17.4843 15.3264 20.6809 13.8463 22.4287C12.3661 24.1923 10.2561 25.0583 7.51628 25.0583H5.1071V38.6631H0.713867V38.6789ZM11.7363 13.5635V11.8629C11.7363 6.49343 10.3349 3.80081 7.51628 3.80081H5.1071V21.6256H7.51628C10.3191 21.6256 11.7363 18.933 11.7363 13.5635Z"
             fill="#252A31"
           />
         </svg>
 
-        <svg id="L" width="14" height="39" viewBox="0 0 14 39" fill="none">
+        <svg
+          className="letter-spacing"
+          width="14"
+          height="39"
+          viewBox="0 0 14 39"
+          fill="none"
+        >
           <path
             d="M0.908081 38.6789V0.289368H5.30131V35.1674H13.8043V38.6789H0.908081Z"
             fill="#252A31"
           />
         </svg>
 
-        <svg id="A" width="21" height="39" viewBox="0 0 21 39" fill="none">
+        <svg
+          className="letter-spacing"
+          width="21"
+          height="39"
+          viewBox="0 0 21 39"
+          fill="none"
+        >
           <path
             d="M16.243 38.6789L14.5424 28.6957H6.81098L5.17335 38.6789H0.780151L7.803 0.289368H13.6134L20.6362 38.6789H16.243ZM10.716 5.83208L7.42508 25.1843H13.944L10.716 5.83208Z"
             fill="#252A31"
           />
         </svg>
 
-        <svg id="C" width="17" height="41" viewBox="0 0 17 41" fill="none">
+        <svg
+          className="letter-spacing"
+          width="17"
+          height="41"
+          viewBox="0 0 17 41"
+          fill="none"
+        >
           <path
             d="M5.87109 35.2699C6.56392 36.3879 7.55592 36.939 8.83137 36.939C10.1068 36.939 11.0673 36.4508 11.7129 35.4903C12.3585 34.5298 12.7837 32.6875 13.0042 29.9791L16.8463 30.4673C16.5156 34.1991 15.681 36.7973 14.3583 38.2774C13.0356 39.7576 11.1146 40.4976 8.62669 40.4976C6.13877 40.4976 4.17047 39.6001 2.70607 37.805C1.24166 36.0099 0.517334 32.719 0.517334 27.9321V13.0204C0.517334 8.23351 1.24166 4.94253 2.70607 3.14746C4.17047 1.35238 6.13877 0.454834 8.59519 0.454834C11.0516 0.454834 12.9412 1.10043 14.2481 2.37588C15.5393 3.65133 16.3424 5.93455 16.6258 9.22552L12.6262 10.2175C12.4058 7.87135 11.9964 6.26523 11.398 5.36769C10.7997 4.47015 9.90212 4.02925 8.7054 4.02925C7.52443 4.02925 6.57966 4.61187 5.88682 5.76135C5.19399 6.91083 4.84756 9.02081 4.84756 12.0913V29.0973C4.83182 32.0891 5.17825 34.1519 5.87109 35.2699Z"
             fill="#252A31"
           />
         </svg>
 
-        <svg id="E" width="14" height="39" viewBox="0 0 14 39" fill="none">
+        <svg
+          className="letter-spacing"
+          width="14"
+          height="39"
+          viewBox="0 0 14 39"
+          fill="none"
+        >
           <path
             d="M4.44327 21.295V35.1674H13.9855V38.6789H0.0500488V0.289368H13.8123V3.80081H4.42751V17.7835H12.9777V21.295H4.44327Z"
             fill="#252A31"

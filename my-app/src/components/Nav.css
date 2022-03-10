@@ -1,10 +1,6 @@
 
 .Nav{
     padding-top: 56px;
-    list-style: none;
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
    margin-Right: 100px;  
 }
 
@@ -52,12 +48,6 @@
 }
 
 
-
- @media( max-width:375px){
-    .Nav{
-        padding-left:90px ;
-    }
-} 
 
 
 

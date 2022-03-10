@@ -1,8 +1,6 @@
 .logo-container{
   display: flex;
-  max-width: 426px;
-  max-height: 426px;
-  position: absolute;
+  
   padding-top: 325px;
 }
 
@@ -15,23 +13,20 @@
 
 .two{
     display: flex;
-    flex-direction: row;
-    align-self: flex-end;
+
     padding-left: 340px;
     padding-bottom: 60px;
 }
 
 @media( max-width:424px){
     .two{
-         padding-left: 5px;   
-         
-              
+         padding-left: 5px;         
     }
 }
 
 .brindley{
     display: flex;
-    flex-direction: row;
+   
     align-self: flex-end;
     margin-left: -308px;
     padding-bottom: 12px
@@ -39,14 +34,14 @@
 
 @media( max-width:424px){
     .brindley{
-        padding-top: 15px;  
+        
         padding-left: 265px;         
     }
 }
 
 .place{
     display: flex;
-    flex-direction: row;
+   
     align-self: flex-end;
     padding-bottom: 10px;
     padding-left: 2px; 
@@ -59,38 +54,12 @@
               
     }
 }
-/* two */
-#T{
+
+.letter-spacing{
     padding-right: 0.5rem;
     }
 
-    #W{
-        padding-right: 0.5rem;
-        }
-
-/* place */
-#P{
-padding-right: 0.5rem;
-}
-#L{
-    padding-right: 0.5rem;
-}
-#A{
-    padding-right: 0.5rem;
-}
-#C{
-    padding-right: 0.5rem;
-}
-
-#E{
-    padding-right: 0.8rem;
-}
-
-/* brindley? */
-.brindleyletters{
-    padding-right: 0.5rem;
-}
-
+   
 
 
 
