@@ -27,12 +27,18 @@
       margin-right:  2.5rem ;
   }
 
+  @media( max-width:440px){
+      .Nav{
+          margin-right: 0px;
+      }
+  }
 
   @media( max-width:440px){
     .list{
         margin-right: 25px;
     }
 }
+
 
 @media( max-width:375px){
     #downloads{
@@ -41,11 +47,29 @@
     }
 }
 
-@media( max-width:440px){
-    .Nav{
-        margin-right: 0px;
+
+
+@media( max-width:315px){
+    .list{
+        display: block;
+        padding-left: 1rem;
     }
 }
+
+@media( max-width:315px){
+    .navbar-item{
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+}
+
+@media( max-width:315px){
+    #downloads{
+        margin-left: 0;
+    }
+}
+
+
 
 
 
